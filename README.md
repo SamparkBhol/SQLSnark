@@ -54,6 +54,6 @@
 - 🐛 Sometimes the chatbot might not handle complex queries well.
 - ⚠️ Users may experience delays with large databases.
 -  For other issues feel free to rasie issue or do any PRs as I will highly appreciate if you say ways to improvement or any bugs in code
--  
+  
 ## 👥 Contributors
 Sampark Bhol
