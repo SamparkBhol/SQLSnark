@@ -32,7 +32,7 @@
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 3. **Install Dependencies**:
-   pip install -r requirements.txt
+   pip install -r requirements.txt  
 
 4. **Download NLP Model (if using spaCy)**:
    python -m spacy download en_core_web_sm
