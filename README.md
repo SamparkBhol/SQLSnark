@@ -50,8 +50,8 @@
 3. **Interact with the Chatbot**:
    Start chatting with the assistant, and it will help you construct and execute SQL queries!
 
-## 📝 License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-👥 Contributors
+## 👥 Contributors
 Sampark Bhol
+
+## 🐛 Issues 
+ For issues feel free to rasie issue or do any PRs as I will highly appreciate if you say ways to improvement or any bugs in code ...
