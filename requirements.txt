@@ -1,0 +1,8 @@
+
+### `requirements.txt`
+```plaintext
+Flask
+spaCy
+sqlite3
+requests
+gunicorn

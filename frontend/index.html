@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL Query Assistant Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SQL Query Assistant Chatbot</h1><br>
+            <p>Your SQL companion, helping you generate and troubleshoot SQL queries with ease!</p>
+        </header>
+        
+        <section id="chatbox">
+            <div id="messages"></div>
+            <div id="input-area">
+                <input type="text" id="user-input" placeholder="Type your query here..." autofocus>
+                <button id="send-btn">Send</button>
+            </div>
+        </section>
+
+        <section id="commands">
+            <h2>Available Commands</h2>
+            <ul>
+                <li><strong>Generate Query:</strong> "Create a query to select all users."</li>
+                <li><strong>Validate Query:</strong> "Check if this query is correct: SELECT * FROM users;"</li>
+                <li><strong>Optimize Query:</strong> "Optimize this query: SELECT * FROM users WHERE age > 30;"</li>
+                <li><strong>Explore Schema:</strong> "Show me the tables in the database."</li>
+            </ul>
+            <p>Type your commands in the chat to see them in action!</p>
+        </section>
+
+        <section id="instructions">
+            <h2>How to Use</h2>
+            <p>Simply type your command or question into the chatbox, and the chatbot will respond with the appropriate SQL query, syntax validation, or tips. You can ask it to generate new queries, validate your existing queries, or explore your database schema.</p>
+            <p>For example:</p>
+            <ul>
+                <li>"Generate a query to find all users older than 25."</li>
+                <li>"Check if this query is correct: SELECT * FROM employees WHERE salary > 50000;"</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 Sampark Bhol</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
