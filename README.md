@@ -1,4 +1,4 @@
-# SQLSnark
+# 💾SQLSnark💾 
 
 🎉 Welcome to SQLSnark! This project is a smart and interactive chatbot that assists users in constructing, executing, and troubleshooting SQL queries. It's built using Python, Flask, and NLP libraries, with an intuitive and animated frontend for a seamless user experience.
 
